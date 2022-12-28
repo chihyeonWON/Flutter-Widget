@@ -1,16 +1,8 @@
 # widget1
 
-A new Flutter project.
+### 첫 번째 프로젝트 구성
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/58906858/209752405-c36e13b4-95db-4cec-86fd-550964e6e56d.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 처음에는 MyHomePage 안에 body에 여러가지 위젯들을 넣으면서 학습할 예정입니다.
+![image](https://user-images.githubusercontent.com/58906858/209752709-cce172c2-c8c6-4c6b-8287-864469369074.png)
