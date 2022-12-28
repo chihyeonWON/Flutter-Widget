@@ -24,7 +24,13 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title:Text('제목'),
       ),
-      body: Text('여기에 예제 작성'),
+      body: Container(
+        color:Colors.red,
+        width:100,
+        height:100,
+        padding:const EdgeInsets.all(8.0),
+        margin:const EdgeInsets.all(8.0),
+      )
     );
   }
 }
