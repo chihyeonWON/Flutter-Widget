@@ -17,3 +17,10 @@
 ```
 
 ![image](https://user-images.githubusercontent.com/58906858/209753144-c50ea46f-0856-421d-8335-3983e30817b5.png)
+
+### Container- Column
+
+```
+수직 방향으로 위젯들을 나란히 배치하는 위젯입니다. 레이아웃의 대부분은 Column와 Row를 조합하여 만들기에 자주 사용됩니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209753826-40cb9142-bcc3-47b4-a1fc-b1aff2d4f190.png)
