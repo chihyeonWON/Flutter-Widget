@@ -5,4 +5,15 @@
 ![image](https://user-images.githubusercontent.com/58906858/209752405-c36e13b4-95db-4cec-86fd-550964e6e56d.png)
 
 #### 처음에는 MyHomePage 안에 body에 여러가지 위젯들을 넣으면서 학습할 예정입니다.
+
 ![image](https://user-images.githubusercontent.com/58906858/209752709-cce172c2-c8c6-4c6b-8287-864469369074.png)
+
+
+### Container 
+
+```
+아무것도 없는 위젯이나 다양한 프로퍼티를 가지고 있기 때문에 사용하기에 따라서 다양한 응용이 가능하고 자주 사용되는 위젯입니다.
+가로와 세로 길이, 색, 안쪽 여백(padding), 바깥쪽 여백(margin) 등의 설정이 가능하고 child 프로퍼티로 또 다른 위젯을 자식으로 가질 수도 있습니다.
+```
+
+![image](https://user-images.githubusercontent.com/58906858/209753144-c50ea46f-0856-421d-8335-3983e30817b5.png)
