@@ -116,3 +116,10 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 원하는 방향으로 위젯을 정렬할 때 사용합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209904185-2e160dfc-7cd0-4264-bdb9-97928ec05c54.png)
+
+#### Expanded
+
+```
+자식 위젯의 크기를 최대한으로 확장시켜주는 위젯입니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209904396-7ce5a700-f9aa-418f-a22a-ccd5acdf5e90.png)
