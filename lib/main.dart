@@ -24,10 +24,12 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('BottomNavigationBar'),
             ),
-            body:Padding(
-              padding:const EdgeInsets.all(40.0),
+            body:Align(
+              alignment: Alignment.bottomRight,
               child:Container(
                 color:Colors.red,
+                width:100,
+                height:100,
               )
             )
     );
