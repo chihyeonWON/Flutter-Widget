@@ -24,25 +24,17 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('BottomNavigationBar'),
             ),
-            body:Column(
-              children:<Widget>[
-                Expanded(
-                  flex:2,
-                  child:Container(
-                    color:Colors.red,
-                  ),
+            body:Center(
+              child:Card(
+                shape:RoundedRectangleBorder(
+                  borderRadius:BorderRadius.circular(16.0),
                 ),
-                Expanded(
-                  child:Container(
-                    color:Colors.green,
-                  ),
-                ),
-                Expanded(
-                  child:Container(
-                    color:Colors.blue,
-                  ),
-                ),
-              ]
+                elevation:4.0, // 그림자 깊이
+                child:Container(
+                  width:200,
+                  height:200,
+                )
+              )
             )
     );
   }
