@@ -16,32 +16,25 @@ class MyApp extends StatelessWidget {
 }
 // 여기까지는 공통코드
 
-final items = List.generate(100, (i)=>i).toList();
-
 //여기부터 수정
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length:3,
-        child: Scaffold(
+    return Scaffold(
             appBar: AppBar(
-              title: Text('Tab'),
-              bottom:TabBar(
-                tabs:<Widget>[
-                  Tab(icon:Icon(Icons.tag_faces)),
-                  Tab(text:'메뉴2'),
-                  Tab(icon:Icon(Icons.info),text:'메뉴'),
-                ],
+              title: Text('BottomNavigationBar'),
+            ),
+            bottomNavigationBar: BottomNavigationBar(items:[
+              BottomNavigationBarItem(icon: Icon(Icons.home),
+                label:'Home',
               ),
-            ),
-            body:TabBarView(
-              children:<Widget>[
-                Container(color:Colors.yellow,),
-                Container(color:Colors.orange,),
-                Container(color:Colors.red,),
-              ]),
-            ),
-        );
+              BottomNavigationBarItem(icon: Icon(Icons.person),
+                label:'Profile',
+              ),
+              BottomNavigationBarItem(icon: Icon(Icons.notifications),
+                label:'Notification',
+              ),
+            ]),
+    );
   }
 }
