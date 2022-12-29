@@ -92,3 +92,10 @@ crossAxisCount 프로퍼티에 열 수를 지정할 수 있습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209903354-76810b4c-0637-4a2f-a8d7-adeb77f77901.png)
 
+## 위치, 정렬, 크기를 위한 위젯
+
+#### Center
+```
+중앙으로 정렬시키는 위젯입니다. 상당히 자주 사용하는 위젯입니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209903565-bed921aa-0b47-4b2c-a44e-7db93cd367ab.png)
