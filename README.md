@@ -63,3 +63,11 @@ ListView와 ListTile을 사용하면 표준적인 리스트를 쉽게 작성할 
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209900734-974afacc-9df9-4135-9387-3a42a9af4695.png)
 
+#### GridView
+
+```
+열 수를 지정하여 그리드 형태로 표시하는 위젯입니다.
+GridView.count() 생성자는 간단하게 그리드를 작성하게 해줍니다.
+crossAxisCount 프로퍼티에 열 수를 지정할 수 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209901017-81db7bf9-6620-41cd-94cb-3ff50e9c6bd5.png)
