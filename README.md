@@ -42,4 +42,14 @@ Column에서 mainAxis(기준이 되는 방향)은 세로방향, Row에서 mainAx
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209897869-46c2c066-ebfe-4d6f-a336-b556ea611071.png)
 
+### SingleChildScrollView
+
+```
+Column을 사용하여 위젯들을 나열하다가 화면 크기를 넘어서면 스크롤이 필요합니다.
+SingleChildScrollView로 감싸서 스크롤이 가능하게 할 수 있습니다.
+Column은 기본적으로 표시할 위젯의 크기만큼 가능영역이 생겨서 스크롤 가능 영역이 좁을 수 있습니다.
+그래서 ListBody를 사용하면 스크롤 가능 영역이 가로로 꽉 차기 때문에 사용자가 스크롤하기 더 쉽습니다.
+0~99까지의 값을 가지는 리스트를 생성하여 스크롤이 되도록 하여 실습하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209899331-7b1838fa-1589-402d-a6c2-8d8a6b159247.png)
 
