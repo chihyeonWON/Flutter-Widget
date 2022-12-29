@@ -24,17 +24,13 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('BottomNavigationBar'),
             ),
-            bottomNavigationBar: BottomNavigationBar(items:[
-              BottomNavigationBarItem(icon: Icon(Icons.home),
-                label:'Home',
-              ),
-              BottomNavigationBarItem(icon: Icon(Icons.person),
-                label:'Profile',
-              ),
-              BottomNavigationBarItem(icon: Icon(Icons.notifications),
-                label:'Notification',
-              ),
-            ]),
+            body:Center(
+              child:Container(
+                color:Colors.red,
+                width:100,
+                height:100,
+              )
+            )
     );
   }
 }
