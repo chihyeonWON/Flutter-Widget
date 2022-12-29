@@ -85,3 +85,10 @@ crossAxisCount 프로퍼티에 열 수를 지정할 수 있습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209902848-6ef3479a-8f6a-4a00-b9d4-e636a418c7ca.png)
 
+#### BottomNavigationBar
+```
+하단에 2~5개의 탭 메뉴를 구성할 수 있는 위젯입니다.
+각 탭을 클릭하여 화면을 전환할 때 사용합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209903354-76810b4c-0637-4a2f-a8d7-adeb77f77901.png)
+
