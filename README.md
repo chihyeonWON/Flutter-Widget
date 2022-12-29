@@ -123,3 +123,11 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 자식 위젯의 크기를 최대한으로 확장시켜주는 위젯입니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209904396-7ce5a700-f9aa-418f-a22a-ccd5acdf5e90.png)
+
+#### SizedBox
+
+```
+위젯 중에는 크기에 관련된 프로퍼티가 없는 위젯이 많습니다.
+그런 위젯을 원하는 특정 크기로 만들고 싶을 때 사용합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209904558-4cf5f2dc-fd0f-460d-8091-0c1187efc219.png)
