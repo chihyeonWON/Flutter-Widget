@@ -53,3 +53,13 @@ Column은 기본적으로 표시할 위젯의 크기만큼 가능영역이 생�
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209899331-7b1838fa-1589-402d-a6c2-8d8a6b159247.png)
 
+### ListView, ListTile
+
+```
+ListViews는 리스트를 표시하는 위젯입니다.
+SingleChildScrollView와 ListBody의 조합과 동일한 효과를 내지만 좀 더 리스트에 최적화된 위젯입니다.
+ListView에 표시할 각 항목은 직접 정의해도 되지만 리스트 아이템을 쉽게 작성할 수 있는 ListTile을 사용하면 편리합니다.
+ListView와 ListTile을 사용하면 표준적인 리스트를 쉽게 작성할 수 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209900734-974afacc-9df9-4135-9387-3a42a9af4695.png)
+
