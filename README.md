@@ -71,3 +71,10 @@ GridView.count() 생성자는 간단하게 그리드를 작성하게 해줍니�
 crossAxisCount 프로퍼티에 열 수를 지정할 수 있습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209901017-81db7bf9-6620-41cd-94cb-3ff50e9c6bd5.png)
+
+#### PageView
+```
+여러 페이지를 좌우로 슬라이드하여 넘길 수 있도록 해주는 위젯입니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209901256-aeb379df-14a3-4d2a-9470-35d2ac4d6dfe.png)
+
