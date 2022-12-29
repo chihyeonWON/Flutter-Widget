@@ -131,3 +131,11 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 그런 위젯을 원하는 특정 크기로 만들고 싶을 때 사용합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209904558-4cf5f2dc-fd0f-460d-8091-0c1187efc219.png)
+
+#### Card
+
+```
+카드 형태의 모양을 제공하는 위젯입니다.
+기본적으로 크기가 0이므로 자식 위젯의 크기에 따라 크기가 결정됩니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209904719-7061cde0-b6ce-4a4d-b31c-bd378f5cdcb1.png)
