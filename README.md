@@ -99,3 +99,12 @@ crossAxisCount 프로퍼티에 열 수를 지정할 수 있습니다.
 중앙으로 정렬시키는 위젯입니다. 상당히 자주 사용하는 위젯입니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209903565-bed921aa-0b47-4b2c-a44e-7db93cd367ab.png)
+
+#### Padding
+
+```
+안쪽 여백을 표현할 때 사용하는 위젯입니다.
+padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
+이때 const를 붙이면 컴파일 타임에 상수로 정의되어 다시 사용되는 부분이 있을 경우 메모리에 있는 값을 재사용하는 이득이 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209903978-b4b78f63-c5fa-492a-91bc-4dc956df4880.png)
