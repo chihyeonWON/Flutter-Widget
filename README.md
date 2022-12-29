@@ -108,3 +108,11 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 이때 const를 붙이면 컴파일 타임에 상수로 정의되어 다시 사용되는 부분이 있을 경우 메모리에 있는 값을 재사용하는 이득이 있습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209903978-b4b78f63-c5fa-492a-91bc-4dc956df4880.png)
+
+#### Align
+
+```
+자식 위젯의 정렬 방향을 정할 수 있는 위젯입니다.
+원하는 방향으로 위젯을 정렬할 때 사용합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209904185-2e160dfc-7cd0-4264-bdb9-97928ec05c54.png)
