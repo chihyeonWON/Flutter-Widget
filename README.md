@@ -32,3 +32,14 @@
 Column에서 mainAxis(기준이 되는 방향)은 세로방향, Row에서 mainAxis는 가로 방향이 됩니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209754397-fe4a25dc-5c8a-4835-8dd9-bfb3567126a5.png)
+
+### Stack
+
+```
+스택 위젯은 children에 나열한 여러 위젯을 순서대로 겹치게 합니다. 
+사진 위에 글자를 표현하거나 화면 위에 로딩 표시를 하는 상황에 사용할 수 있습니다.
+사용 방법은 Row, Column와 같으며 먼저 작성한 위젯이 가장 아래쪽에 위치하고 나중에 작성한 위젯이 위쪽에 위치합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/209897869-46c2c066-ebfe-4d6f-a336-b556ea611071.png)
+
+
