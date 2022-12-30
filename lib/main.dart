@@ -24,11 +24,11 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('Button'),
             ),
-            body:TextButton(
-              child:Text('TextButton'),
-              onPressed: () {
-                // 실행할 코드 작성
-              },
+            body:IconButton(
+              icon:Icon(Icons.add),
+              color:Colors.red,
+              iconSize:100.0,
+              onPressed:(){},
             )
     );
   }
