@@ -188,3 +188,16 @@ TextStyle 클래스는 글자 크기, 색상, 폰트 스타일 등을 쉽게 설
 ```
 ![image](https://user-images.githubusercontent.com/58906858/210038378-7ab5d685-c168-4802-9d3e-e73c560ebba3.png)
 
+#### Image
+```
+이미지를 표시하는 위젯입니다.
+플러터에서는 네트워크에 있는 이미지를 간단히 표시할 수 있습니다. network() 메서드에 이미지 파일의 url을 입력하기만 하면 됩니다.
+물론 asset() 메서드로 이미지 파일을 직접 표시할 수 있습니다. 이미지 파일을 사용하려면 프로젝트 내에 별도의 폴더를 만든 후 이미지 파일을 복사해둡니다.
+이미지 파일을 사용할 수 있도록 pubspec.yaml 파일을 수정해야 합니다. pubspec.yaml 파일의 flutter: 항목 아래의 assets: 항목 아래에 폴더명을 지정하면 됩니다.
+파일을 수정한 후에 터미널에서 flutter pub get 명령을 실행하여 프로젝트에서 이미지 파일에 접근할 수 있게 해야 합니다.
+```
+assets 폴더를 생성하고 아래에 maple.jpg를 저장했습니다.
+![image](https://user-images.githubusercontent.com/58906858/210038897-284cd968-7ba6-4fe5-807a-6d41e9563e93.png)
+
+pubspec.yaml 파일에 flutter: 항목 아래 assets: 항목 아래에 - assets/와 같이 폴더명을 지정해주었습니다.
+![image](https://user-images.githubusercontent.com/58906858/210039115-3cc3a3d3-09ec-4021-a378-95ad57609ed0.png)
