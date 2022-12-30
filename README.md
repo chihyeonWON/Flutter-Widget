@@ -176,3 +176,15 @@ Scaffold의 floatingActionButton 프로퍼티에 바로 사용할 수도 있고 
 단독 사용할 수도 있습니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/210038154-9ded6d8e-7666-42ba-9cc6-0a2ef7900ddb.png)
+
+### 화면 표시용 위젯
+
+#### Text
+```
+글자를 표시하는 위젯입니다.
+Text 위젯은 기본적으로 첫 번째 인수에 문자열을 지정하여 Text('글자') 형태로 사용하는 데
+style 프로퍼티에 TextStyle 클래스의 인스턴스를 지정하여 다양한 글자를 표현할 수 있습니다.
+TextStyle 클래스는 글자 크기, 색상, 폰트 스타일 등을 쉽게 설정할 수 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210038378-7ab5d685-c168-4802-9d3e-e73c560ebba3.png)
+
