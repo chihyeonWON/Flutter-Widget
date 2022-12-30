@@ -22,10 +22,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             appBar: AppBar(
-              title: Text('BottomNavigationBar'),
+              title: Text('Button'),
             ),
-            body:ElevatedButton(
-              child:Text('RaisedButton'),
+            body:TextButton(
+              child:Text('TextButton'),
               onPressed: () {
                 // 실행할 코드 작성
               },
