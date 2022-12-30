@@ -139,3 +139,16 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 기본적으로 크기가 0이므로 자식 위젯의 크기에 따라 크기가 결정됩니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/209904719-7061cde0-b6ce-4a4d-b31c-bd378f5cdcb1.png)
+
+### 버튼 계열 위젯
+
+#### ElvatedButton
+
+```
+입체감을 가지는 일반적인 버튼 위젯입니다.
+버튼 위젯들은 모두 onPressed 프로퍼티에 버튼이 클릭되었을 때 실행될 함수를 반드시 정의해줘야
+버튼이 활성화되며 클릭 가능합니다.
+만약 null을 지정하면 버튼이 클릭되지 않는 비활성 상태가 됩니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210037748-30b3a901-8142-4f97-bea9-99352cbde33a.png)
+
