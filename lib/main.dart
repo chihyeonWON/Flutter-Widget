@@ -24,10 +24,15 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('Button'),
             ),
-            body:FloatingActionButton(
-              child:Icon(Icons.add),
-              onPressed:(){},
-            )
+            body:Text('HelloWorld',
+            style:TextStyle(
+              fontSize:40.0, // 글자 크기
+              fontStyle:FontStyle.italic, // 이탤릭체
+              fontWeight:FontWeight.bold, // 볼드체
+              color:Colors.red,
+              letterSpacing:4.0, // 자간
+            ),
+            ),
     );
   }
 }
