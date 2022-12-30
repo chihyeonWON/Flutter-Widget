@@ -24,17 +24,11 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('BottomNavigationBar'),
             ),
-            body:Center(
-              child:Card(
-                shape:RoundedRectangleBorder(
-                  borderRadius:BorderRadius.circular(16.0),
-                ),
-                elevation:4.0, // 그림자 깊이
-                child:Container(
-                  width:200,
-                  height:200,
-                )
-              )
+            body:ElevatedButton(
+              child:Text('RaisedButton'),
+              onPressed: () {
+                // 실행할 코드 작성
+              },
             )
     );
   }
