@@ -168,3 +168,11 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 대신 아이콘을 icon 프로퍼티에 작성하고 크기는 iconSize 프로퍼티로 설정합니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/210038008-b201cab8-030d-4c86-ba7f-b3c45f1ec772.png)
+
+#### FloatingActionButton
+```
+입체감 있는 둥근 버튼 위젯입니다. 아이콘을 표시하는 데 사용합니다.
+Scaffold의 floatingActionButton 프로퍼티에 바로 사용할 수도 있고 일반적인 버튼처럼
+단독 사용할 수도 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210038154-9ded6d8e-7666-42ba-9cc6-0a2ef7900ddb.png)
