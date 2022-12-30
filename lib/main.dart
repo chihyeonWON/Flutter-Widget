@@ -22,17 +22,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             appBar: AppBar(
-              title: Text('Button'),
+              title: Text('Image'),
             ),
-            body:Text('HelloWorld',
-            style:TextStyle(
-              fontSize:40.0, // 글자 크기
-              fontStyle:FontStyle.italic, // 이탤릭체
-              fontWeight:FontWeight.bold, // 볼드체
-              color:Colors.red,
-              letterSpacing:4.0, // 자간
-            ),
-            ),
+            body:Image.asset('assets/maple.jpg'),
     );
   }
 }
