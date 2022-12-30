@@ -158,4 +158,13 @@ padding 프로퍼티에 EdgeInsets 클래스를 사용하여 설정합니다.
 평평한 형태의 버튼입니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/210037834-cc1f74a9-dbe8-4acc-afbc-b733737fcc36.png)
-  
+
+#### IconButton
+
+```
+아이콘을 표시하는 버튼 위젯입니다.
+아이콘의 크기나 색을 지정할 수 있습니다.
+이 위젯은 다른 위젯과 다르게 자식 위젯을 포함할 수 없기 때문에 child 프로퍼티가 없습니다.
+대신 아이콘을 icon 프로퍼티에 작성하고 크기는 iconSize 프로퍼티로 설정합니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210038008-b201cab8-030d-4c86-ba7f-b3c45f1ec772.png)
