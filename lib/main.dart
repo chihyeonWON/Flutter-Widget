@@ -24,10 +24,8 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('Button'),
             ),
-            body:IconButton(
-              icon:Icon(Icons.add),
-              color:Colors.red,
-              iconSize:100.0,
+            body:FloatingActionButton(
+              child:Icon(Icons.add),
               onPressed:(){},
             )
     );
