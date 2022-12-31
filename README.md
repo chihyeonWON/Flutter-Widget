@@ -209,3 +209,11 @@ pubspec.yaml 파일에 flutter: 항목 아래 assets: 항목 아래에 - assets/
 ```
 ![image](https://user-images.githubusercontent.com/58906858/210125071-9596c85d-71c4-440e-8163-707e730e11f1.png)
 
+#### CircleAvatar
+```
+프로필 화면 등에 많이 사용되는 원형 위젯입니다.
+네트워크상에 존재하는 이미지를 표시한다면 child 프로퍼티가 아닌 backgroundImage 프로퍼티에
+NetworkImage 클래스의 인스턴스를 지정해야 네트워크에서 받아온 이미지가 원형으로 표시됩니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210125277-cb4b346a-af3c-4042-9bcf-14be514da168.png)
+
