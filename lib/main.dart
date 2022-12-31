@@ -24,7 +24,11 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('Image'),
             ),
-            body:Image.asset('assets/maple.jpg'),
+            body:Icon(
+              Icons.home,
+              color:Colors.red,
+              size:100.0,
+            )
     );
   }
 }
