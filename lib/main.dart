@@ -24,10 +24,9 @@ class MyHomePage extends StatelessWidget {
             appBar: AppBar(
               title: Text('Image'),
             ),
-            body:Icon(
-              Icons.home,
-              color:Colors.red,
-              size:100.0,
+            body:CircleAvatar(
+              child:Icon(Icons.person),
+
             )
     );
   }
