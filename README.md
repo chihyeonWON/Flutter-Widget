@@ -201,3 +201,11 @@ assets 폴더를 생성하고 아래에 maple.jpg를 저장했습니다.
 
 pubspec.yaml 파일에 flutter: 항목 아래 assets: 항목 아래에 - assets/와 같이 폴더명을 지정해주었습니다.
 ![image](https://user-images.githubusercontent.com/58906858/210039115-3cc3a3d3-09ec-4021-a378-95ad57609ed0.png)
+
+#### Icon
+```
+아이콘 위젯은 단독으로도 사용하지만 메뉴나 리스트, 버튼과의 조합으로 사용합니다.
+머터리얼 디자인용 기본 아이콘은 Icons 클래스에 상수로 미리 정의되어 있습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/210125071-9596c85d-71c4-440e-8163-707e730e11f1.png)
+
